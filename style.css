@@ -97,7 +97,9 @@ h1{
   }
   
   form > .button:hover {
+  
     background-color: rgba(19, 63, 73, 0.8);
+
   }
   form{
       margin-left: 20%;
