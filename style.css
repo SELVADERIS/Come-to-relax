@@ -104,4 +104,29 @@ h1{
 
 
   }
+  .firstpicture{
+    height:350px ;
+    width: 50%;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 10px;
+    border-radius: 7px;
+    
+  }
   
+  img:hover{
+    hight: 370px;
+    width: 52%;
+
+  }
+  h2{
+    color: black;
+    font-family: calibri;
+    margin-left: 2%
+  }
+  p{
+    font-family: calibri;
+    font-size: larger;
+    display: inline-block;
+    margin-left: 3%;
+  }
