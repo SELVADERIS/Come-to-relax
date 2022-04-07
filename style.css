@@ -106,27 +106,69 @@ h1{
   }
   .firstpicture{
     height:350px ;
-    width: 50%;
-    display: inline-block;
-    margin-left: 20%;
-    margin-top: 10px;
+    width: 50%; 
+    margin-right: 2%;
+    margin-top:0px;
     border-radius: 7px;
+    float: right;
+    margin-left: 2%;
+  } 
+  .firstpicture :hover{
+    box-shadow: #1e5b83;
+  }
+  
+   #big{
+    color: black;
+    font-family: calibri;
+    font-size: xx-large;
+    display: inline;
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-weight: bold;
+  } 
+   p{
+    font-family: calibri;
+    font-size: larger;
+    float: right;
+    margin-left: 3%;
+    text-align: justify;
+    display: inline;
+  }  
+ 
+  
+  .footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-bottom: 1%;
+    margin-top: 80%;
+    height: 40px;
+    
+   
+  }
+  .list{
+    margin-top: 13%;
+    font-size: large;
+    font-family: calibri;
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 7px;
+    margin-right: 55%;
+    margin-left: 3%;
+    text-decoration: none;
+    
+  }
+
+  .list a{
+    text-decoration: none;
+    color: black;
+    font-family: calibri;
+    font-size: large;
+  }
+  .list :hover a{
+    
+    color: #1e5b83;
+    font-weight: bold;
     
   }
   
-  img:hover{
-    height: 370px;
-    width: 52%;
-
-  }
-  h2{
-    color: black;
-    font-family: calibri;
-    margin-left: 2%
-  }
-  p{
-    font-family: calibri;
-    font-size: larger;
-    display: inline-block;
-    margin-left: 3%;
-  }
