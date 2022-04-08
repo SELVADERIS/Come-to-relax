@@ -7,24 +7,48 @@
     <title>Come to relax</title>
     <link rel="stylesheet" href="./index.js">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
  
 </head>
 <body>
-    <!-- Top Navigation Bar -->
-    <div class="topnav">
-        <h1>Come to relax</h1>
-        <a class="active" href="#home">Home</a>
-        <a href="#plan">Plan</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <!-- simple search box code... is here but I dont use it.
-            <input class="search_box"    type ="text" placeholder="Search ...">
-        <button type="submit">Go</button> -->
-        <form   method="post">
-            <input type="text" class="textbox" placeholder="Search">
-            <input title="Search" value="" type="submit" class="button">
-          </form>
+  
+
+     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <h1 >Come to relax</h1>
+        <a class="navbar-brand" href="#">Home</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+           <ul class="navbar-nav">
+             <li class="nav-item">
+             <a class="nav-link" href="#">Plan</a>
+             </li>
+             <li class="nav-item">
+             <a class="nav-link" href="#">Contact</a>
+             </li>
+             <li class="nav-item">
+             <a class="nav-link" href="#">About</a>
+             </li>    
+           </ul>
+        </div>  
+              <form   method="post">
+                <input type="text" class="textbox" placeholder="Search">
+                <input title="Search" value="" type="submit" class="button">
+              </form>
+    </nav>
+         
+
+       
       </div>
+      <!-- big photo -->
+      <img  id="ss" src="https://img2.goodfon.com/wallpaper/nbig/7/91/vacation-relax-couple-man.jpg" class="img-fluid" alt="...">
+      <!-- <img id="ff" src="data:image/jpeg;base64,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 -->
+
       <!-- firstimage -->
       <!-- h2 and paragraph -->
      
@@ -46,15 +70,28 @@
               <li><a href="#">Reduced pain (long-term illnesses, chronic conditions)</a></li>
               <li><a href="#">ability to deal with illness</a></li>
               <li><a href="#">Facilitation of recovery</a></li>
-              <li><a href="#">Decreased depressive symptoms</a></li>
+              
             </ul>
          </div>
-       
 
-    <!-- it is a footer -->
-    <div class="footer">
-        <p id="text"> dont forget</p>
-      </div>
+        
+        <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX5737497.jpg" class="rounded mx-auto d-block" alt="...">
+            <!-- audio -->
+            <h3 id="audio1">Sea and Guitar</h3>
+        <audio class="wp-audio-shortcode" id="audio-74798-11" preload="none" style="width: 65%;" controls="controls"><source type="audio/mpeg" src="https://dl.minevisam.com/storage/2020/05/19/x-r0jtkvEnPM/file/02-atlantis.mp3?_=11" /><a href="https://dl.minevisam.com/storage/2020/05/19/x-r0jtkvEnPM/file/02-atlantis.mp3">https://dl.minevisam.com/storage/2020/05/19/x-r0jtkvEnPM/file/02-atlantis.mp3</a></audio> 
+            <h3 id="audio2">Rain</h3>
+        <audio class="wp-audio-shortcode" id="audio-227471-1" preload="none" style="width: 65%;" controls="controls"><source type="audio/mpeg" src="https://setare.com/files/fa/news/1399/5/19/374671_411.mp3?_=1"></source><a href="https://setare.com/files/fa/news/1399/5/19/374671_411.mp3">https://setare.com/files/fa/news/1399/5/19/374671_411.mp3</a></audio>
+
+ 
+
+         <div class="footer">
+         <a href="#">Terms of Use</a>
+         <a href="#">Privacy Policy</a>
+         <a href="#plan">Plan</a>
+         </div>
+
+
+      
     
 </body>
 </html>

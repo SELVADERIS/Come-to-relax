@@ -1,49 +1,15 @@
-/* style for top navbar and overflow is for big text inside navbar */
-.topnav{
-    background-color: rgb(10, 9, 11);
-    overflow: hidden;
-}
-/* style h1 and with float: left, it is inside of navbar */
-h1{
-    color: #f2f2f2;
+
+.navbar h1{
+    color:white;
     font-family: 'Gill Sans MT';
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 10px;
+    margin-right: 10%;
     float: left;
 }
-/* Style the links inside the navigation bar */
-/* float put items(link) in a place like left or right and text can be biside of the items */
-/* text decoration is for changing a line place like up or down or without line */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: calibri;
-    margin-top: 10px;
-    margin-left: 5%;
-  }
-/* hover for a tag or link */
-.topnav a:hover {
-    background-color: rgb(27, 168, 196);
-    color: black;
-  }
+
+
  
- 
-  /* body style colorfull */
-  /* body {
-    background: url('http://i.hizliresim.com/v4Qykv.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: 'Roboto', Tahoma, Arial, sans-serif;
-    line-height: 1.5;
-    font-size: 13px;
-  } */
-  
   form {
     outline: 0;
     float: left;
@@ -96,6 +62,10 @@ h1{
     border-radius: 0 4px 4px 0;
   }
   
+  .navbar form{
+    margin-right: 5%;
+    margin-top:0px;
+  }
   form > .button:hover {
   
     background-color: rgba(19, 63, 73, 0.8);
@@ -152,9 +122,6 @@ h1{
     margin-top: 13%;
     font-size: large;
     font-family: calibri;
-    border-style: ridge;
-    border-width: 2px;
-    border-radius: 7px;
     margin-right: 55%;
     margin-left: 3%;
     text-decoration: none;
@@ -167,10 +134,66 @@ h1{
     font-family: calibri;
     font-size: large;
   }
+  .list :hover li{
+    background-color:black;
+  }
   .list :hover a{
-    
-    color: #1e5b83;
-    font-weight: bold;
-    
+    color:white ;
   }
   
+
+ .footer a{
+   color: #FFF;
+   text-decoration: none;
+   margin: 20px;
+   font-family: calibri;
+   padding-top: 10px;
+   text-align: center;
+   float: center;
+
+ }
+ .footer a:hover{
+   color: #82b5d6;
+   font-size: larger;
+ }
+ 
+ .navbar-brand a:hover{
+   background-color: #28848e;
+
+ }
+ .nav-link :hover{
+  background-color: #28848e;
+ }
+ .nav-item li{
+   background-color: #28848e;
+ }
+
+ #audio-74798-11{
+   margin-top: 5px;
+   margin-left: 18%;
+    
+ }
+ #audio-227471-1{
+  margin-top: 5px;
+  margin-left: 18%;
+
+ }
+ h3{
+   font-family: calibri;
+   margin-left: 48%;
+   
+   
+ }
+ #audio1{
+   margin-left: 43%;
+   margin-top: 10px;
+ }
+
+body{
+  height: 100px;
+}
+#ss{
+  height: 450px;
+  width: 100%;
+  
+}
